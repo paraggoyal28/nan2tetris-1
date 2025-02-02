@@ -1,0 +1,19 @@
+Develop a assembler
+
+Translating A-instructions
+
+If value is a decimal constant,
+generate the equivalent 15-bit binary constant
+For eg. @21 -> 0000000000010101
+
+If value is symbol, later.
+
+Translating C instructions
+
+dest = cmp;jump
+
+1 1 1 a c1 c2 c3 c4 c5 c6 d1 d2 d3 j1 j2 j3
+
+eg. MD = D+1
+
+1110011111011000
